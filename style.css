@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Itim&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+section {
+  transition: opacity 0.5s;
+  margin: calc(10px);
+}
+
+li
+{
+  margin: calc(10px);
+  color: whitesmoke;
+  display: inline;
+  font-family: "Prompt", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+nav 
+{
+  margin-bottom: auto;
+  background-color: red;
+  background-size: auto;
+  font-size: calc(auto);
+}
+
+nav a
+{
+  margin-right: calc(5px);
+  margin-top: calc(auto);
+  text-decoration: none;
+  color: pink;
+  float: inline-end;
+  font-size: calc(auto);
+  font-family: "Prompt", serif;
+  font-weight: 800;
+}
+
+nav :hover
+{
+  color: black;
+}
+
+h1 
+{
+  font-family: "Prompt", serif;
+  font-weight: 500;
+  font-size: calc(35px);
+  color: brown;
+}
+h2
+{
+  font-family: "Prompt", serif;
+  font-weight: 500;
+  font-size: calc(35px);
+  color: brown;
+}
+
+p
+{
+  font-family: "Prompt", serif;
+  font-weight: 400;
+  font-size: calc(20px);
+  color: yellowgreen;
+}
+
+.profile
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 10%;
+}
+
+.education
+{
+  text-align: center;
+}
+
+.certificate
+{
+  border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  width: 50%
+}
+
+.coding
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  width: 50%
+}
+
+.icon
+{
+  width: calc(25px);
+  height: calc(25px);
+}
+
+
+.container 
+{
+  display: flex;
+  align-items: center; 
+  background-color: transparent
+}
+
+.social
+{
+  margin-left: calc(10px);
+}
+
+body
+{
+  background-color: hsla(0, 100%, 90%, 0.3);;
+}
